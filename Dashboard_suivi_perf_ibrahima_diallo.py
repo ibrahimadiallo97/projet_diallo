@@ -87,5 +87,3 @@ def main():
             filtered_data.to_csv("donnees_filtrees.csv", index=False)
             st.success("Les données filtrées ont été enregistrées avec succès dans le fichier donnees_filtrees.csv")
 
-if __name__ == "__main__":
-    main()
